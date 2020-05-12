@@ -1,0 +1,111 @@
+.results {
+  width: 100%;
+  height: auto;
+  display: table;
+}
+
+.products {
+  width: 100%;
+  margin-right: 0px;
+  border-right: 0px;
+  height: auto;
+  left: 0;
+}
+
+.found_item {
+  background-color: lightblue;
+  border: none;
+  display: table-row;
+  width: 100%
+}
+
+.found_item_img {
+  max-width: 300px;
+  height: auto;
+  border: none;
+  display: table-cell;
+}
+
+/*f5a442 711719 #fffbed*/
+.product_info {
+  background-color: #822628;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.product_text_area {
+  background-color: #fffbed;
+  border: none;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+}
+
+.company {
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  max-width: 100%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.price {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+}
+
+.delivery {
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.star_rating {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+}
+
+.availability {
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.fa {
+  color: #822628;
+  font-size: 20px;
+}

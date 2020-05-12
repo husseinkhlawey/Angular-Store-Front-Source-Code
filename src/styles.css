@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #fffbed;
+}
+
+/* Top Bar */
+app-top-bar {
+  width: 100%;
+  height: 68px;
+  background-color: #822628;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button {
+  display: inline-flex;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+a:link {
+  text-decoration: none;
+  font-color: #ffffff;
+}

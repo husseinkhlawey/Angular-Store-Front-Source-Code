@@ -1,0 +1,23 @@
+<!-- angular uses (click) not onclick
+<button (click) = "callFunction1()" > Click Me </button> -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade" *ngFor = "let item of items">
+      <img class="featImg" src= {{item.link}}>
+  </div>
+
+  <!--Next and previous buttons
+  the &#xxxxx are unicode image codes for the arrows-->
+  <a class="prev" (click) = "callFunction2()">&#10094;</a>
+  <a class="next" (click) = "callFunction3()">&#10095;</a>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" (click) = "callFunction4()"></span>
+    <span class="dot" (click) = "callFunction5()"></span>
+    <span class="dot" (click) = "callFunction6()"></span>
+  </div>
+</div>
+<br>
