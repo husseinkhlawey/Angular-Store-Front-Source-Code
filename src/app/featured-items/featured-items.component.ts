@@ -13,7 +13,7 @@ declare var carouselFuncs: any;
 
 export class FeaturedItemsComponent implements OnInit {
 
-  public productsUrl = "http://localhost:8080/featured";
+  public productsUrl = "/featured";
   public items: Product[];
 
   constructor(private ProductsService: ProductsService) {

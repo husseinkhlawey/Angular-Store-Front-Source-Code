@@ -12,10 +12,10 @@ export class ProductsService {
   constructor(private httpService: HttpClient) { }
 
   public getFeatured() : Observable<Product[]> {
-    return this.httpService.get<Product[]>("http://localhost:8080/featured").pipe(map(data => data.map(data => new Product().deserialize(data))));
+    return this.httpService.get<Product[]>("/featured").pipe(map(data => data.map(data => new Product().deserialize(data))));
   }
 
   public getSearchRes(tag: string) : Observable<Product[]> {
-    return this.httpService.get<Product[]>("http://localhost:8080/search/" + tag).pipe(map(data => data.map(data => new Product().deserialize(data))));
+    return this.httpService.get<Product[]>("/search/" + tag).pipe(map(data => data.map(data => new Product().deserialize(data))));
   }
 }
