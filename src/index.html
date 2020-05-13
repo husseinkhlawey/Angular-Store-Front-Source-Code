@@ -10,4 +10,13 @@
 <body>
   <app-root></app-root>
 </body>
+<script type="text/javascript">
+function myF() {
+  setTimeout(function () {
+    plusSlides(1);
+    myF();
+  }, 10000);
+}
+myF();
+</script>
 </html>
