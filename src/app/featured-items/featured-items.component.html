@@ -5,7 +5,32 @@
 <div class="slideshow-container">
 
   <div class="mySlides fade" *ngFor = "let item of items">
-      <img class="featImg" src= {{item.link}}>
+    <div class="featured_product">
+      <div _ngcontent-imk-c21="" class="feat_found_item">
+        <img class="featImg" src= {{item.link}}>
+        <div class="feat_product_info">
+          <div class="product_text_area">
+            <div class="name" >{{item.name}}</div>
+            <div class="company">by {{item.comp}}</div>
+            <img class="found_item_logo" src={{item.logo}}>
+            <br>
+            <div class="price">{{item.price}}</div>
+            <div class="delivery">{{item.deliver}} day shipping available</div>
+            <i class="fa fa-truck"></i>
+            <br>
+            <div class="star_rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-o"></span>
+              <span class="fa fa-star-o"></span>
+            </div>
+            <div class="availability">{{item.available}}</div>
+            <i class="fa fa-check-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!--Next and previous buttons

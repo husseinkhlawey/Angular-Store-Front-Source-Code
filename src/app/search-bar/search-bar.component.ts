@@ -33,4 +33,12 @@ export class SearchBarComponent implements OnInit {
       seaResFunc.func1(this.products);
     });
   }
+
+  public mykeyPress(event: any) {
+    const input = (event as KeyboardEvent).keyCode;
+    //console.log("pressed ", input);
+    if (input == 13) {
+      this.searchFunc();
+    }
+  }
 }

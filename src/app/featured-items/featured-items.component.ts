@@ -25,7 +25,7 @@ export class FeaturedItemsComponent implements OnInit {
       this.items = products;
     });
     this.ProductsService.getFeatured().subscribe(products => {
-      console.log("f1 ran");
+      console.log("func f1 ran");
       this.callFunction1();
     });
   }

@@ -52,7 +52,11 @@
   text-align: center;
   display: inline-block;
   width: auto;
-  margin: 20px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .company {
@@ -62,16 +66,31 @@
   text-align: center;
   max-width: 100%;
   display: inline-block;
-  margin: 20px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.found_item_logo {
+  max-width: 80px;
+  height:auto;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .price {
   color: black;
   font-size: 20px;
   text-align: left;
-  display: inline-block;
   width: auto;
-  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
 }
 
 .delivery {
@@ -80,9 +99,13 @@
   font-style: italic;
   text-align: center;
   text-align: left;
-  display: inline-block;
   max-width: 100%;
-  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
 }
 
 .star_rating {
@@ -92,6 +115,7 @@
   display: inline-block;
   width: auto;
   margin: 20px;
+  margin-right: 0px;
 }
 
 .availability {
@@ -102,10 +126,39 @@
   text-align: left;
   display: inline-block;
   max-width: 100%;
-  margin: 20px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.fa {
+.fa-star, .fa-star-o {
   color: #822628;
   font-size: 20px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.fa-truck {
+  color: #822628;
+  transform: scale(2);
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.fa-check-circle {
+  color: #822628;
+  transform: scale(2);
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
 }
